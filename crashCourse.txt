@@ -50,7 +50,7 @@ CORS controls whether the browser allows this connection. By default, browsers b
 In this code, allow_origins=["*"] is set, which means allow all origins (any domain or app can connect). The middleware 
 is added so that your FastAPI app accepts requests from any origin, making it easier for you to access the API from anywhere, 
 such as different frontend apps.
-
+ 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 **Original:** > async
@@ -72,7 +72,7 @@ async def get_vehicle_data(self):
 
 This means `get_vehicle_data` won’t block the app. The `await` keyword tells Python to pause this function temporarily while it waits 
 for data but allows the app to keep working on other tasks.
-
+ 
 In short:
 - **`async`** lets the function run without waiting.
 - **`await`** pauses the function only when necessary, allowing other parts of the app to keep running smoothly.
