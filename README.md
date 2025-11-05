@@ -1,14 +1,14 @@
 ---
 
-# 🚗 Vehicle Data Pipeline Project
+# Vehicle Data Pipeline Project
 
 A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker**, and **CI/CD**. This project showcases modern data engineering, model development, and deployment workflows — all wrapped in a scalable and production-ready pipeline.
 
 ---
 
-## 📁 Project Setup
+## Project Setup
 
-### 🔧 Initial Setup
+### Initial Setup
 
 1. **Generate Project Template**
 
@@ -37,7 +37,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## ☁️ MongoDB Atlas Integration
+## MongoDB Atlas Integration
 
 1. Sign up at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
@@ -58,7 +58,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## 📒 Logging, Exceptions, EDA
+## Logging, Exceptions, EDA
 
 1. Implement `logger.py` and `exception.py`.
 2. Test them via `demo.py`.
@@ -66,7 +66,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## 🧩 Data Ingestion Pipeline
+## Data Ingestion Pipeline
 
 1. Add configuration constants in `constants/__init__.py`.
 2. Define DB connection in `configuration/mongo_db_connection.py`.
@@ -95,7 +95,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## 🔍 Data Validation & Transformation
+## Data Validation & Transformation
 
 1. Complete `utils/main_utils.py` and `config/schema.yaml`.
 2. Build:
@@ -106,7 +106,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## ☁️ AWS S3 Integration for Model Registry
+## AWS S3 Integration for Model Registry
 
 1. **IAM User Setup**
 
@@ -139,21 +139,21 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## 📈 Model Evaluation & Pusher
+## Model Evaluation & Pusher
 
 * Implement `model_evaluation` and `model_pusher` components.
 * Push latest model to S3 if it beats existing score threshold.
 
 ---
 
-## 🧠 Model Prediction Pipeline
+## Model Prediction Pipeline
 
 1. Setup `app.py` with prediction logic.
 2. Add `static/` and `template/` for web interface.
 
 ---
 
-## 🚀 CI/CD & Deployment (EC2 + Docker)
+## CI/CD & Deployment (EC2 + Docker)
 
 ### Docker & Github Actions
 
@@ -188,7 +188,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## 📦 Final Deployment
+## Final Deployment
 
 1. Open port `5080` on EC2 (Security Groups).
 2. Visit `http://<EC2_IP>:5080` to view the app.
@@ -196,7 +196,7 @@ A full-stack, end-to-end MLOps project leveraging **MongoDB**, **AWS**, **Docker
 
 ---
 
-## ✅ Tech Stack
+## Tech Stack
 
 * **Languages**: Python 3.12
 * **Data**: MongoDB Atlas, Pandas
